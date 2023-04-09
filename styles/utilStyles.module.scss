@@ -1,0 +1,46 @@
+@import './variables.scss';
+
+.header {
+  color: $primary-color;
+  font-size: 2.25rem;
+}
+
+.subhead {
+  color: $primary-color;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.highlightFont {
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+}
+
+.icon {
+  color: $link-color;
+  font-size: 1.2rem;
+  padding-right: 12px;
+}
+
+.button {
+  background-color: $background-color;
+  border: 1px solid $link-color;
+  border-radius: $border-radius;
+  color: $link-color;
+  margin: 0 4px;
+  padding: 8px 10px;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    background-color: $link-color;
+    color: $background-color;
+    text-decoration: none;
+  }
+}
+
+.button[data-active],
+.button[data-state='active'] {
+  background-color: $link-color;
+  color: $background-color;
+  text-decoration: none;
+}

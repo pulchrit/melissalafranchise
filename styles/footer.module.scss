@@ -1,0 +1,9 @@
+@import './variables.scss';
+
+.wrapper {
+  border-top: 1px solid $primary-color;
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+  padding-top: 2%;
+}

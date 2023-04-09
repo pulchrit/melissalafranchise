@@ -1,0 +1,15 @@
+$background-color: #f9f4ee;
+$border-radius: 3px;
+$light-background: #fefdfc;
+$link-color: #1c5639;
+$primary-color: #832b2b;
+$text-color: #515151;
+
+
+:export {
+  backgroundColor: $background-color;
+  borderRadius: $border-radius;
+  linkColor: $link-color;
+  primaryColor: $primary-color;
+  textColor: $text-color;
+}

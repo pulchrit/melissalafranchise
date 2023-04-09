@@ -1,0 +1,73 @@
+@import './variables.scss';
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 4% 0;
+}
+
+@media (min-width: 640px) {
+  .wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.headerLink {
+  color: $text-color;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+.header {
+  letter-spacing: .2rem;
+  margin: 0;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .header {
+    text-align: left;
+  }
+}
+
+.NavigationMenuRoot {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  z-index: 1;
+}
+
+.NavigationMenuList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.NavigationMenuLink {
+    background-color: $background-color;
+    border: 1px solid $link-color;
+    border-radius: $border-radius;
+    color: $link-color;
+    margin: 0 4px;
+    padding: 8px 10px;
+    text-decoration: none;
+
+    &:hover, &:focus {
+      background-color: $link-color;
+      color: $background-color;
+      text-decoration: none;
+    }
+}
+
+.NavigationMenuLink[data-active] {
+  background-color: $link-color;
+  color: $background-color;
+  text-decoration: none;
+}

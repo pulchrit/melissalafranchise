@@ -1,0 +1,28 @@
+@import './variables.scss';
+
+html,
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-size: 14px;
+  height: 100%;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: $link-color;
+}
+
+a:hover, a:focus {
+  text-decoration: underline 3px;
+}
+
+p {
+  margin: 1% 0;
+}

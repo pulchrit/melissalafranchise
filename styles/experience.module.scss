@@ -1,0 +1,27 @@
+@import './variables.scss';
+
+.TabsList {
+  display: flex;
+  flex-direction: column;
+  margin: 4% 0 2% 0; 
+  padding: 0 8px;
+}
+
+@media (min-width: 325px) {
+  .TabsList {
+    flex-direction: row;
+    padding: 0;
+  }
+}
+
+button.triggerButton {
+  margin-bottom: 10px;
+
+  @media (min-width: 325px) {
+    margin-bottom: 0;
+  }
+}
+
+.TabsContent {
+  padding: 1%;
+}

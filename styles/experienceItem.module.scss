@@ -1,0 +1,29 @@
+@import './variables.scss';
+
+.wrapper {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
+
+.timeTitle {
+  color: $primary-color;
+  letter-spacing: .1rem;
+}
+
+.timeOrganization {
+  margin-right: 16px;
+}
+
+.list {
+  margin: .25em 0 2em 0;
+}
+
+.listItem {
+  line-height: 1.15rem;
+  padding-bottom: .8rem;
+}
