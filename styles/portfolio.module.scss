@@ -4,6 +4,11 @@
   align-items: center;
 }
 
+@media (max-width: 280px) {
+  .wrapper {
+    max-width: 280px;
+  }
+}
 
 @media (min-width: 660px) {
   .wrapper {

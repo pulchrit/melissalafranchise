@@ -290,7 +290,7 @@ export const portfolioData = [
       priority: false,
     },
     title: 'WHO Rehabilitation Need Estimator',
-    code: 'React, Redux, React Query, IHME UI',
+    code: 'React, Redux, React Query, Ant Design, IHME UI',
     type: 'Professional project',
     links: [
       {

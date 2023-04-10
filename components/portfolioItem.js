@@ -48,12 +48,13 @@ export default function PortfolioItem({ image, title, code, type, links }) {
       <p
         className={classnames(
           highlightFont.className,
-          utilStyles.highlightFont
+          utilStyles.highlightFont,
+          styles.text
         )}
       >
         {title}
       </p>
-      <p>{code}</p>
+      <p className={styles.text}>{code}</p>
       <p>{type}</p>
       <div>{linkItems}</div>
     </div>

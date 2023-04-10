@@ -17,7 +17,7 @@ export default function Portfolio() {
       </Head>
       <section>
         <Title text="portfolio" />
-        <p>View all experience as a timeline or filter by type.</p>
+        <p>Sample personal, professional, and student projects.</p>
         <div className={styles.wrapper}>{portfolioItems}</div>
       </section>
     </>
