@@ -24,7 +24,7 @@ export const experienceData = [
   {
     id: 'job-1',
     time: `Dec 2019${ENDASH}present`,
-    title: 'Software Developer',
+    title: 'Software Developer II',
     organization: `Institute for Health Metrics and Evaluation (IHME) ${PIPE} Seattle, WA`,
     type: 'employment',
     accomplishments: [
