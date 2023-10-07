@@ -262,13 +262,32 @@ export const experienceTypes = ['all', 'employment', 'education', 'other'];
 
 export const portfolioData = [
   {
+    id: 'portfolio-5',
+    image: {
+      src: '/images/pandemic.png',
+      alt: 'Screenshot of Pandemic Recovery Survey',
+      width: 300,
+      height: 200,
+      priority: true,
+    },
+    title: 'Pandemic Recovery Survey',
+    code: 'React, Redux Toolkit, React Query, Ant Design, React Scrollama, D3',
+    type: 'Professional project',
+    links: [
+      {
+        text: 'Live',
+        href: 'https://vizhub.healthdata.org/pandemic-recovery-survey/',
+      },
+    ],
+  },
+  {
     id: 'portfolio-1',
     image: {
       src: '/images/melissalafranchise.png',
       alt: 'Screenshot of this site',
       width: 300,
       height: 200,
-      priority: true,
+      priority: false,
     },
     title: 'melissalafranchise.com',
     code: 'React, Next.js, Radix UI',
