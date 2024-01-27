@@ -40,6 +40,10 @@ export const experienceData = [
         id: 'ihme-3',
         text: 'Maintain and improve front and backend codebases using Javascript, React, and Node.',
       },
+      {
+        id: 'ihme-4',
+        text: 'Recipient of the 2023 IHME Innovator of the Year Award for work on accessibility in data visualization tools.',
+      },
     ],
   },
   {

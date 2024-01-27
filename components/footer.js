@@ -6,6 +6,6 @@ export default function Footer() {
   return (
     <div
       className={styles.wrapper}
-    >{`${copyright} 2023 Melissa Lafranchise`}</div>
+    >{`${copyright} 2024 Melissa Lafranchise`}</div>
   );
 }
