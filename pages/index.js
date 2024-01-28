@@ -62,8 +62,8 @@ export default function Home() {
             Front End:
           </span>{' '}
           <span>
-            Javascript ES6, React, Next.js, React Query, React Hook Form, Redux
-            Toolkit, Typescript, Sass, D3, Jest, React Testing Library
+            Javascript, React, Next.js, React Query, React Hook Form, Redux
+            Toolkit, Typescript, Sass, Vue, Nuxt
           </span>
         </p>
         <p className={styles.skill}>
