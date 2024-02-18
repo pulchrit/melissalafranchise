@@ -42,14 +42,14 @@ export default function Home() {
       <section>
         <Title text="about" />
         <p>
-          I am a full stack web developer interested in using technology for the
-          good of the world. I enjoy being part of a team that understands top
-          performance comes from an environment where developers are encouraged
-          and enabled to learn. In addition to my current web development
-          experience, I also have 14 years of marketing communications and
-          project management experience and the knowledge gained from a Masters
-          of Library and Information Science with a focus on information
-          organization. I am diligent, reliable, organized, and want to help.
+          I’m interested in joining an organization with the mission of doing
+          good in the world. I’d enjoy being part of a team that understands top
+          performance comes from an environment where team members are
+          encouraged and enabled to learn. I bring 4 years of web development
+          experience, 14 years of marketing communications and project
+          management experience, and the knowledge gained from a Masters of
+          Library and Information Science with a focus on information
+          organization. I’m diligent, reliable, and want to help.
         </p>
         <Subtitle text="skills" />
         <p className={styles.skill}>
@@ -59,12 +59,14 @@ export default function Home() {
               utilStyles.highlightFont
             )}
           >
-            Front End:
+            Project management:
           </span>{' '}
-          <span>
-            Javascript, React, Next.js, React Query, React Hook Form, Redux
-            Toolkit, Typescript, Sass, Vue, Nuxt
-          </span>
+          <ul>
+            <li>Waterfall and agile methodologies</li>
+            <li>Scoping and planning</li>
+            <li>Risk identification and mitigation</li>
+            <li>Effective and appropriate communication</li>
+          </ul>
         </p>
         <p className={styles.skill}>
           <span
@@ -73,9 +75,16 @@ export default function Home() {
               utilStyles.highlightFont
             )}
           >
-            Back End:
+            Technology:
           </span>{' '}
-          <span>Node.js, Express, MySQL, REST APIs, MSW</span>
+          <ul>
+            <li>Javascript, React, Vue</li>
+            <li>Next, Nuxt</li>
+            <li>React Query, React Hook Form, Redux Toolkit</li>
+            <li>CSS, Sass</li>
+            <li>Node, Express</li>
+            <li>SQL, REST APIs</li>
+          </ul>
         </p>
         <p className={styles.skill}>
           <span
@@ -84,12 +93,15 @@ export default function Home() {
               utilStyles.highlightFont
             )}
           >
-            Related:
+            Communications and Design:
           </span>{' '}
-          <span>
-            UI/UX design, agile and waterfall project management, marketing
-            communications, budget, and business planning
-          </span>
+          <ul>
+            <li>Marketing communication planning and budgeting</li>
+            <li>Process improvement</li>
+            <li>UI/UX design</li>
+            <li>Collateral design</li>
+            <li>Press release and copy writing</li>
+          </ul>
         </p>
         <Subtitle text="contact" />
         {contacts}
