@@ -59,7 +59,7 @@ export default function Home() {
               utilStyles.highlightFont
             )}
           >
-            Project management:
+            Project Management:
           </span>{' '}
           <ul>
             <li>Waterfall and agile methodologies</li>

@@ -22,6 +22,27 @@ export const contactData = [
 
 export const experienceData = [
   {
+    id: 'job-12',
+    time: `March 2024`,
+    title: 'Student',
+    organization: `Google Project Management Certificate ${PIPE} Coursera`,
+    type: 'education',
+    accomplishments: [
+      {
+        id: 'google-1',
+        text: 'Perfected fundamentals of waterfall and agile project scoping, planning, scheduling, execution, and success measurement.',
+      },
+      {
+        id: 'google-2',
+        text: 'Improved understanding of optimal communication planning, strategies, and timing.',
+      },
+      {
+        id: 'google-3',
+        text: 'Learned specific techniques for effective documentation and artifact creation.',
+      },
+    ],
+  },
+  {
     id: 'job-1',
     time: `Dec 2019${ENDASH}present`,
     title: 'Software Developer II',
