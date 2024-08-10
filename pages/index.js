@@ -82,7 +82,7 @@ export default function Home() {
             <li>Next, Nuxt</li>
             <li>React Query, React Hook Form, Redux Toolkit</li>
             <li>CSS, Sass</li>
-            <li>Node, Express</li>
+            <li>PHP, Node, Express</li>
             <li>SQL, REST APIs</li>
           </ul>
         </p>
