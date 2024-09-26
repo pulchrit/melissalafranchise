@@ -3,6 +3,7 @@ import * as Tabs from '@radix-ui/react-tabs';
 import Head from 'next/head';
 import classnames from 'classnames';
 import Title from '../components/title';
+import { bodyFont } from '../utils/fonts';
 import { groupExperience } from '../utils/filterExperience';
 import ExperienceItem from '../components/experienceItem';
 import { experienceData, experienceTypes } from '../constants/constants';
@@ -15,7 +16,11 @@ const groupedExperience = groupExperience(experienceData);
 const triggerContent = experienceTypes.map((type) => (
   <Tabs.Trigger
     key={type}
-    className={classnames(utilStyles.button, styles.triggerButton)}
+    className={classnames(
+      bodyFont.className,
+      utilStyles.button,
+      styles.triggerButton
+    )}
     value={type}
   >
     {type}
