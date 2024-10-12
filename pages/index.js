@@ -78,7 +78,7 @@ export default function Home() {
             Technology:
           </span>{' '}
           <ul>
-            <li>Javascript, React, Vue</li>
+            <li>Javascript, React, Vue, Drupal</li>
             <li>Next, Nuxt</li>
             <li>React Query, React Hook Form, Redux Toolkit</li>
             <li>CSS, Sass</li>
