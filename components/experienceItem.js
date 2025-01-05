@@ -22,7 +22,7 @@ export default function ExperienceItem({
 
   return (
     <>
-      <div className={classnames(styles.wrapper, styles.timeTitle)}>
+      <h3 className={classnames(styles.wrapper, styles.timeTitle)}>
         <span
           className={classnames(
             highlightFont.className,
@@ -39,7 +39,7 @@ export default function ExperienceItem({
         >
           {title}
         </span>
-      </div>
+      </h3>
       <div className={styles.wrapper}>{organization}</div>
       <ul className={styles.list}>{accomplishmentsList}</ul>
     </>

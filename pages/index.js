@@ -52,31 +52,31 @@ export default function Home() {
           organization. I’m diligent, reliable, and want to help.
         </p>
         <Subtitle text="skills" />
-        <p className={styles.skill}>
-          <span
+        <div className={styles.skill}>
+          <h4
             className={classnames(
               highlightFont.className,
               utilStyles.highlightFont
             )}
           >
             Project Management:
-          </span>{' '}
+          </h4>{' '}
           <ul>
             <li>Waterfall and agile methodologies</li>
             <li>Scoping and planning</li>
             <li>Risk identification and mitigation</li>
             <li>Effective and appropriate communication</li>
           </ul>
-        </p>
-        <p className={styles.skill}>
-          <span
+        </div>
+        <div className={styles.skill}>
+          <h4
             className={classnames(
               highlightFont.className,
               utilStyles.highlightFont
             )}
           >
             Technology:
-          </span>{' '}
+          </h4>{' '}
           <ul>
             <li>Javascript, React, Vue, Drupal</li>
             <li>Next, Nuxt</li>
@@ -85,16 +85,16 @@ export default function Home() {
             <li>PHP, Node, Express</li>
             <li>SQL, REST APIs</li>
           </ul>
-        </p>
-        <p className={styles.skill}>
-          <span
+        </div>
+        <div className={styles.skill}>
+          <h4
             className={classnames(
               highlightFont.className,
               utilStyles.highlightFont
             )}
           >
             Communications and Design:
-          </span>{' '}
+          </h4>{' '}
           <ul>
             <li>Marketing communication planning and budgeting</li>
             <li>Process improvement</li>
@@ -102,7 +102,7 @@ export default function Home() {
             <li>Collateral design</li>
             <li>Press release and copy writing</li>
           </ul>
-        </p>
+        </div>
         <Subtitle text="contact" />
         {contacts}
       </section>
