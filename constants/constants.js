@@ -1,6 +1,6 @@
-const ENDASH = String.fromCharCode(8211);
+export const ENDASH = String.fromCharCode(8211);
 
-const PIPE = String.fromCharCode(124);
+export const PIPE = String.fromCharCode(124);
 
 export const contactData = [
   {

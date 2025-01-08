@@ -8,7 +8,7 @@ import classnames from 'classnames';
 import Head from 'next/head';
 import Title from '../components/title';
 import Subtitle from '../components/subtitle';
-import { contactData } from '../constants/constants';
+import { contactData, ENDASH, PIPE } from '../constants/constants';
 
 import styles from '../styles/home.module.scss';
 import { highlightFont } from '../utils/fonts';
@@ -42,15 +42,15 @@ export default function Home() {
       <section>
         <Title text="about" />
         <p>
-          I’m interested in joining an organization with the mission of doing
-          good in the world. I’d enjoy being part of a team that understands top
-          performance comes from an environment where team members are
-          encouraged and enabled to learn. I bring 4 years of web development
-          experience, 14 years of marketing communications and project
-          management experience, and the knowledge gained from a Masters of
-          Library and Information Science with a focus on information
-          organization. I’m diligent, reliable, and want to help.
+          I’m interested in doing good in the world. I believe top performance
+          comes from an environment where team members are encouraged and
+          enabled to learn. I bring 14 years of marketing communications and
+          project management experience, 5 years of web development experience,
+          and the knowledge gained from a Masters of Library and Information
+          Science. I’m diligent, reliable, and want to help.
         </p>
+        <Subtitle text="contact" />
+        {contacts}
         <Subtitle text="skills" />
         <div className={styles.skill}>
           <h4
@@ -93,18 +93,25 @@ export default function Home() {
               utilStyles.highlightFont
             )}
           >
-            Communications and Design:
+            Marketing, Content, and Design:
           </h4>{' '}
           <ul>
             <li>Marketing communication planning and budgeting</li>
             <li>Process improvement</li>
             <li>UI/UX design</li>
             <li>Collateral design</li>
-            <li>Press release and copy writing</li>
+            <li>Copywriting</li>
           </ul>
         </div>
-        <Subtitle text="contact" />
-        {contacts}
+        <Subtitle text="certifications" />
+        <ul>
+          <li>
+            {`Currently completing ${PIPE} UX Content Collective: Microcopy,
+            Accessibility for UX Writers & Designers`}
+          </li>
+          <li>{`8/2024 ${PIPE} W3Schools Certified PHP Developer`}</li>
+          <li>{`2/2024${ENDASH}3/2024 ${PIPE} Google Project Management Certifications`}</li>
+        </ul>
       </section>
     </div>
   );
