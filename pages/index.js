@@ -57,6 +57,23 @@ export default function Home() {
               utilStyles.highlightFont
             )}
           >
+            Marketing, Content, and Design:
+          </h4>{' '}
+          <ul>
+            <li>Marketing communication planning and budgeting</li>
+            <li>Process improvement</li>
+            <li>UI/UX design</li>
+            <li>Collateral design</li>
+            <li>Content design and copywriting</li>
+          </ul>
+        </div>
+        <div className={styles.skill}>
+          <h4
+            className={classnames(
+              highlightFont.className,
+              utilStyles.highlightFont
+            )}
+          >
             Project Management:
           </h4>{' '}
           <ul>
@@ -82,23 +99,6 @@ export default function Home() {
             <li>CSS, Sass</li>
             <li>PHP, Node, Express</li>
             <li>SQL, REST APIs</li>
-          </ul>
-        </div>
-        <div className={styles.skill}>
-          <h4
-            className={classnames(
-              highlightFont.className,
-              utilStyles.highlightFont
-            )}
-          >
-            Marketing, Content, and Design:
-          </h4>{' '}
-          <ul>
-            <li>Marketing communication planning and budgeting</li>
-            <li>Process improvement</li>
-            <li>UI/UX design</li>
-            <li>Collateral design</li>
-            <li>Content design and copywriting</li>
           </ul>
         </div>
         <Subtitle text="certifications" />
