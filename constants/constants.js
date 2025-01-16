@@ -287,17 +287,55 @@ export const experienceTypes = ['all', 'employment', 'education', 'other'];
 
 export const portfolioData = [
   {
+    id: 'portfolio-7',
+    image: {
+      src: '/images/offer-call-to-action.png',
+      alt: 'Screenshot of figma story boards for an introductory offer signup.',
+      width: 300,
+      height: 200,
+      priority: true,
+    },
+    title: 'Introductory offer mobile storyboards',
+    code: 'Accessible copywriting, UI direction, and Stark accessibility annotations',
+    type: 'Student project, content design',
+    links: [
+      {
+        text: 'Figma',
+        href: 'https://www.figma.com/proto/lyljBiaIWsUwWM6e7K8bJn/MelissaLafranchise-UXCC-Accessibility-Unit-4-Practice?node-id=5-87&t=AyocUjlRRqJ03UUQ-1',
+      },
+    ],
+  },
+  {
+    id: 'portfolio-6',
+    image: {
+      src: '/images/accessible_copy_edit.png',
+      alt: 'Screenshot of Google doc containing accessible web page copy.',
+      width: 300,
+      height: 200,
+      priority: true,
+    },
+    title: 'Web page content',
+    code: 'Accessible web copywriting with a bit of design direction',
+    type: 'Student project, content design',
+    links: [
+      {
+        text: 'Google doc',
+        href: 'https://docs.google.com/document/d/1h4EG8gGvFSYtB81Ze6ShC16SFx4P8lZaYR2o_hbU1VM/edit?usp=sharing',
+      },
+    ],
+  },
+  {
     id: 'portfolio-5',
     image: {
       src: '/images/pandemic.png',
-      alt: 'Screenshot of Pandemic Recovery Survey',
+      alt: 'Screenshot of Pandemic Recovery Survey.',
       width: 300,
       height: 200,
       priority: true,
     },
     title: 'Pandemic Recovery Survey',
-    code: 'React, Redux Toolkit, React Query, Ant Design, React Scrollama, D3',
-    type: 'Professional project',
+    code: 'React, Redux Toolkit, React Query, Ant Design, React Scrollama, D3, accessibile tables, chart descriptions, and UI',
+    type: 'Professional project, web development',
     links: [
       {
         text: 'Live',
@@ -309,14 +347,14 @@ export const portfolioData = [
     id: 'portfolio-1',
     image: {
       src: '/images/melissalafranchise.png',
-      alt: 'Screenshot of this site',
+      alt: 'Screenshot of this site.',
       width: 300,
       height: 200,
       priority: false,
     },
     title: 'melissalafranchise.com',
     code: 'React, Next.js, Radix UI',
-    type: 'Personal project',
+    type: 'Personal project, web development',
     links: [
       {
         text: 'GitHub',
@@ -328,14 +366,14 @@ export const portfolioData = [
     id: 'portfolio-2',
     image: {
       src: '/images/WHO.png',
-      alt: 'Screenshot of WHO Rehabilitation Need Estimator',
+      alt: 'Screenshot of WHO Rehabilitation Need Estimator.',
       width: 300,
       height: 200,
       priority: false,
     },
     title: 'WHO Rehabilitation Need Estimator',
     code: 'React, Redux, React Query, Ant Design, IHME UI',
-    type: 'Professional project',
+    type: 'Professional project, web development',
     links: [
       {
         text: 'Live',
@@ -344,17 +382,36 @@ export const portfolioData = [
     ],
   },
   {
+    id: 'portfolio-8',
+    image: {
+      src: '/images/country-profiles.png',
+      alt: 'Screenshot of the Country Profile charts for the United States.',
+      width: 300,
+      height: 200,
+      priority: false,
+    },
+    title: 'United States Country Profile',
+    code: 'React, Ant Design, D3, accessibility tables, chart descriptions, and UI',
+    type: 'Professional project, web development',
+    links: [
+      {
+        text: 'Live',
+        href: 'https://www.healthdata.org/research-analysis/health-by-location/profiles/united-states',
+      },
+    ],
+  },
+  {
     id: 'portfolio-3',
     image: {
       src: '/images/books.png',
-      alt: 'Screenshot of More Books, Please',
+      alt: 'Screenshot of More Books, Please.',
       width: 300,
       height: 200,
       priority: false,
     },
     title: 'More Books, Please',
     code: 'React, React Router',
-    type: 'Student project',
+    type: 'Student project, web development',
     links: [
       {
         text: 'GitHub',
@@ -370,14 +427,14 @@ export const portfolioData = [
     id: 'portfolio-4',
     image: {
       src: '/images/poetry.png',
-      alt: 'Screenshot of Poems, Computed',
+      alt: 'Screenshot of Poems, Computed.',
       width: 300,
       height: 200,
       priority: false,
     },
     title: 'Poems, Computed',
     code: 'HTML, CSS, JS, jQuery, HighCharts',
-    type: 'Student project',
+    type: 'Student project, web development',
     links: [
       {
         text: 'GitHub',

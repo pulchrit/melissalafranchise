@@ -49,8 +49,6 @@ export default function Home() {
           and the knowledge gained from a Masters of Library and Information
           Science. I’m diligent, reliable, and want to help.
         </p>
-        <Subtitle text="contact" />
-        {contacts}
         <Subtitle text="skills" />
         <div className={styles.skill}>
           <h4
@@ -100,18 +98,19 @@ export default function Home() {
             <li>Process improvement</li>
             <li>UI/UX design</li>
             <li>Collateral design</li>
-            <li>Copywriting</li>
+            <li>Content design and copywriting</li>
           </ul>
         </div>
         <Subtitle text="certifications" />
         <ul>
           <li>
-            {`Currently completing ${PIPE} UX Content Collective: Microcopy,
-            Accessibility for UX Writers & Designers`}
+            {`Currently completing ${PIPE} UX Content Collective: Accessibility for UX Writers & Designers`}
           </li>
           <li>{`8/2024 ${PIPE} W3Schools Certified PHP Developer`}</li>
           <li>{`2/2024${ENDASH}3/2024 ${PIPE} Google Project Management Certifications`}</li>
         </ul>
+        <Subtitle text="contact" />
+        {contacts}
       </section>
     </div>
   );

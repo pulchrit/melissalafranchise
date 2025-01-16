@@ -12,7 +12,9 @@ export default function PortfolioItem({ image, title, code, type, links }) {
     () =>
       title === 'melissalafranchise.com'
         ? '/'
-        : links.find(({ text }) => text === 'Live').href,
+        : links.find(({ text }) =>
+            ['Live', 'Figma', 'Google doc'].includes(text)
+          ).href,
 
     [links, title]
   );
