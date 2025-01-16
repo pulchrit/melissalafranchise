@@ -296,12 +296,12 @@ export const portfolioData = [
       priority: true,
     },
     title: 'Introductory offer mobile storyboards',
-    code: 'Accessible copywriting, UI direction, and Stark accessibility annotations',
+    code: 'Accessible copywriting, UI direction, and Stark accessibility annotations. Password required.',
     type: 'Student project, content design',
     links: [
       {
         text: 'Figma',
-        href: 'https://www.figma.com/proto/lyljBiaIWsUwWM6e7K8bJn/MelissaLafranchise-UXCC-Accessibility-Unit-4-Practice?node-id=5-87&t=AyocUjlRRqJ03UUQ-1',
+        href: 'https://www.figma.com/proto/lyljBiaIWsUwWM6e7K8bJn/MelissaLafranchise-UXCC-Accessibility-Unit-4-Practice?node-id=5-88&p=f&t=XKkoKetWRZmPqOwZ-1&scaling=min-zoom&content-scaling=fixed&page-id=5%3A87&starting-point-node-id=5%3A88',
       },
     ],
   },
@@ -315,7 +315,7 @@ export const portfolioData = [
       priority: true,
     },
     title: 'Web page content',
-    code: 'Accessible web copywriting with a bit of design direction',
+    code: 'Accessible web copywriting with a bit of design direction.',
     type: 'Student project, content design',
     links: [
       {
