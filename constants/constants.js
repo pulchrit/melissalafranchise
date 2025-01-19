@@ -289,6 +289,25 @@ export const portfolioData = [
   {
     id: 'portfolio-7',
     image: {
+      src: '/images/search_mockup.png',
+      alt: 'Screenshot of figma story boards for an introductory offer signup.',
+      width: 300,
+      height: 200,
+      priority: true,
+    },
+    title: 'Search screen mock-up',
+    code: 'Accessible content and UI design, Stark accessibility annotations',
+    type: 'Student project, content and UI design',
+    links: [
+      {
+        text: 'Figma',
+        href: 'https://www.figma.com/design/EBIJjr5wgHzZitmjhBjw3h/MelissaLafranchise_Idealist_SearchForm?node-id=0-1&t=Evl7hXlVxVFbr5EY-1',
+      },
+    ],
+  },
+  {
+    id: 'portfolio-7',
+    image: {
       src: '/images/offer-call-to-action.png',
       alt: 'Screenshot of figma story boards for an introductory offer signup.',
       width: 300,

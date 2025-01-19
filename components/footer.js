@@ -4,8 +4,8 @@ const copyright = String.fromCharCode(169);
 
 export default function Footer() {
   return (
-    <div
+    <footer
       className={styles.wrapper}
-    >{`${copyright} 2024 Melissa Lafranchise`}</div>
+    >{`${copyright} 2024 Melissa Lafranchise`}</footer>
   );
 }

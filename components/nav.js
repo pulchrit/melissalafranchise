@@ -32,7 +32,7 @@ Link.displayName = 'Link';
 
 export default function Nav() {
   return (
-    <div className={styles.wrapper}>
+    <header className={styles.wrapper}>
       <NextLink className={styles.headerLink} href="/">
         <h1 className={classnames(highlightFont.className, styles.header)}>
           melissa lafranchise
@@ -49,6 +49,6 @@ export default function Nav() {
           </NavigationMenu.Item>
         </NavigationMenu.List>
       </NavigationMenu.Root>
-    </div>
+    </header>
   );
 }
