@@ -106,9 +106,6 @@ export default function Home() {
           <li>
             {`1/2025 ${PIPE} UX Content Collective: Accessibility for UX Writers & Designers`}
           </li>
-          <li>
-            {`1/2025 ${PIPE} UX Content Collective: The Microcopy Course`}
-          </li>
           <li>{`8/2024 ${PIPE} W3Schools Certified PHP Developer`}</li>
           <li>{`2/2024${ENDASH}3/2024 ${PIPE} Google Project Management Certifications`}</li>
         </ul>
