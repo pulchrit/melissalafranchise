@@ -291,7 +291,7 @@ export const experienceTypes = ['all', 'employment', 'education', 'other'];
 
 export const portfolioData = [
   {
-    id: 'portfolio-7',
+    id: 'portfolio-8',
     image: {
       src: '/images/search_mockup.png',
       alt: 'Screenshot of figma story boards for an introductory offer signup.',
@@ -386,6 +386,25 @@ export const portfolioData = [
     ],
   },
   {
+    id: 'portfolio-10',
+    image: {
+      src: '/images/fgh.png',
+      alt: 'Screenshot of Financing Global Health.',
+      width: 300,
+      height: 200,
+      priority: false,
+    },
+    title: 'Financing Global Health',
+    code: 'React, Sass, Figma',
+    type: 'Professional project, web redesign',
+    links: [
+      {
+        text: 'Live',
+        href: 'https://vizhub.healthdata.org/fgh/',
+      },
+    ],
+  },
+  {
     id: 'portfolio-2',
     image: {
       src: '/images/WHO.png',
@@ -405,7 +424,7 @@ export const portfolioData = [
     ],
   },
   {
-    id: 'portfolio-8',
+    id: 'portfolio-9',
     image: {
       src: '/images/country-profiles.png',
       alt: 'Screenshot of the Country Profile charts for the United States.',
