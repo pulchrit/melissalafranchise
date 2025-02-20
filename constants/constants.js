@@ -44,26 +44,30 @@ export const experienceData = [
   },
   {
     id: 'job-1',
-    time: `Dec 2019${ENDASH}present`,
+    time: `Dec 2019${ENDASH}Feb 2025`,
     title: 'Software Developer II',
     organization: `Institute for Health Metrics and Evaluation (IHME) ${PIPE} Seattle, WA`,
     type: 'employment',
     accomplishments: [
       {
         id: 'ihme-1',
-        text: 'Create, maintain, and improve full stack data visualizations based on research performed by IHME.',
+        text: 'Created, maintained, and improved full stack data visualizations based on research performed by IHME.',
       },
       {
         id: 'ihme-2',
-        text: 'Spearheading the ongoing initiative to increase the accessibility of IHME visualizations.',
+        text: 'Spearheaded the initiative to increase the accessibility of IHME visualizations.',
       },
       {
         id: 'ihme-3',
-        text: 'Maintain and improve front and backend codebases using Javascript, React, and Node.',
+        text: 'Maintained and improved front and backend codebases using Javascript, React, and Node.',
       },
       {
         id: 'ihme-4',
         text: 'Recipient of the 2023 IHME Innovator of the Year Award for work on accessibility in data visualization tools.',
+      },
+      {
+        id: 'ihme-5',
+        text: 'Created a process for implementing new UX design across 20+ visualization tools as well as implemented that design in a template and test tool based on Figma mockups.',
       },
     ],
   },

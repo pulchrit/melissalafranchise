@@ -62,9 +62,9 @@ export default function Home() {
           <ul>
             <li>Marketing communication planning and budgeting</li>
             <li>Process improvement</li>
+            <li>Accessible content design</li>
+            <li>Content research and testing</li>
             <li>UI/UX design</li>
-            <li>Collateral design</li>
-            <li>Content design and copywriting</li>
           </ul>
         </div>
         <div className={styles.skill}>
@@ -95,7 +95,7 @@ export default function Home() {
           <ul>
             <li>Javascript, React, Vue, Drupal</li>
             <li>Next, Nuxt</li>
-            <li>React Query, React Hook Form, Redux Toolkit</li>
+            <li>React Query, Redux Toolkit</li>
             <li>CSS, Sass</li>
             <li>PHP, Node, Express</li>
             <li>SQL, REST APIs</li>
@@ -103,6 +103,9 @@ export default function Home() {
         </div>
         <Subtitle text="certifications" />
         <ul>
+          <li>
+            {`Currently completing ${PIPE} UX Content Collective: UX Content Research & Testing`}
+          </li>
           <li>
             {`1/2025 ${PIPE} UX Content Collective: Accessibility for UX Writers & Designers`}
           </li>
