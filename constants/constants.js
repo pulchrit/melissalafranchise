@@ -43,27 +43,6 @@ export const experienceData = [
     ],
   },
   {
-    id: 'job-12',
-    time: `March 2024`,
-    title: 'Student',
-    organization: `Google Project Management Certificate ${PIPE} Coursera`,
-    type: 'education',
-    accomplishments: [
-      {
-        id: 'google-1',
-        text: 'Perfected fundamentals of waterfall and agile project scoping, planning, scheduling, execution, and success measurement.',
-      },
-      {
-        id: 'google-2',
-        text: 'Improved understanding of optimal communication planning, strategies, and timing.',
-      },
-      {
-        id: 'google-3',
-        text: 'Learned specific techniques for effective documentation and artifact creation.',
-      },
-    ],
-  },
-  {
     id: 'job-1',
     time: `Dec 2019${ENDASH}Feb 2025`,
     title: 'Software Developer II',
@@ -89,6 +68,27 @@ export const experienceData = [
       {
         id: 'ihme-5',
         text: 'Created a process for implementing new UX design across 20+ visualization tools as well as implemented that design in a template and test tool based on Figma mockups.',
+      },
+    ],
+  },
+  {
+    id: 'job-12',
+    time: `March 2024`,
+    title: 'Student',
+    organization: `Google Project Management Certificate ${PIPE} Coursera`,
+    type: 'education',
+    accomplishments: [
+      {
+        id: 'google-1',
+        text: 'Perfected fundamentals of waterfall and agile project scoping, planning, scheduling, execution, and success measurement.',
+      },
+      {
+        id: 'google-2',
+        text: 'Improved understanding of optimal communication planning, strategies, and timing.',
+      },
+      {
+        id: 'google-3',
+        text: 'Learned specific techniques for effective documentation and artifact creation.',
       },
     ],
   },
