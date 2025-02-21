@@ -22,6 +22,27 @@ export const contactData = [
 
 export const experienceData = [
   {
+    id: 'job-13',
+    time: `Feb 2025${ENDASH}present`,
+    title: 'Student',
+    organization: `UX Content Collective`,
+    type: 'education',
+    accomplishments: [
+      {
+        id: 'ux-1',
+        text: 'Building skills in user research and testing to make informed content and design decisions and measure impact.',
+      },
+      {
+        id: 'ux-2',
+        text: 'Mastered the WCAG guidelines to include accessibility at every stage of content design and writing.',
+      },
+      {
+        id: 'ux-3',
+        text: 'Learned to craft compelling microcopy includingnbest practices for buttons, alerts, forms, error and success messages, and empty states.',
+      },
+    ],
+  },
+  {
     id: 'job-12',
     time: `March 2024`,
     title: 'Student',
