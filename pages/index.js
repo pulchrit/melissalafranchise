@@ -1,5 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import {
+  faArrowUpRightFromSquare,
+  faEnvelope,
+} from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
 import '@fortawesome/fontawesome-svg-core/styles.css';
@@ -8,7 +11,7 @@ import classnames from 'classnames';
 import Head from 'next/head';
 import Title from '../components/title';
 import Subtitle from '../components/subtitle';
-import { contactData, ENDASH, PIPE } from '../constants/constants';
+import { contactData } from '../constants/constants';
 
 import styles from '../styles/home.module.scss';
 import { highlightFont } from '../utils/fonts';
@@ -45,7 +48,7 @@ export default function Home() {
           I’m a versatile communicator with broad experience in fact-based
           marketing communications, responsive project management,
           customer-focused and accessible web development, and UX writing and
-          research skills. I’m diligent, reliable, and want to help.
+          research. I’m diligent, reliable, and want to help.
         </p>
         <Subtitle text="skills" />
         <div className={styles.skill}>
@@ -102,13 +105,140 @@ export default function Home() {
         <Subtitle text="certifications" />
         <ul>
           <li>
-            {`Currently completing ${PIPE} UX Content Collective: Fundamentals of UX Writing`}
+            Currently enrolled: UX Content Collective Fundamentals of UX Writing
           </li>
           <li>
-            {`1/2025${ENDASH}3/2025 ${PIPE} UX Content Collective: Accessibility for UX Writers & Designers, UX Content Research`}
+            UX Content Collective:{' '}
+            <ul>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1vQfhDNAU24zpRnkughN5fArI4PRj54Ky/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Accessibility for UX Writers & Designers
+                </a>
+                <FontAwesomeIcon
+                  className={`${utilStyles.icon} ${utilStyles.iconSuffix}`}
+                  icon={faArrowUpRightFromSquare}
+                />
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1GXS8TSOEThFqYMJjj6lwS1flQYyXeqoN/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  UX Content Research
+                </a>
+                <FontAwesomeIcon
+                  className={`${utilStyles.icon} ${utilStyles.iconSuffix}`}
+                  icon={faArrowUpRightFromSquare}
+                />
+              </li>
+            </ul>
           </li>
-          <li>{`8/2024 ${PIPE} W3Schools Certified PHP Developer`}</li>
-          <li>{`2/2024${ENDASH}3/2024 ${PIPE} Google Project Management Certifications`}</li>
+          <li>
+            Google Project Management:
+            <ul>
+              <li>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/records/ZHD88GLMG28C"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Agile Project Management
+                </a>
+                <FontAwesomeIcon
+                  className={`${utilStyles.icon} ${utilStyles.iconSuffix}`}
+                  icon={faArrowUpRightFromSquare}
+                />
+              </li>
+              <li>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/records/ZZL8CWKK56KU"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Capstone: Applying Project Management in the Real World
+                </a>
+                <FontAwesomeIcon
+                  className={`${utilStyles.icon} ${utilStyles.iconSuffix}`}
+                  icon={faArrowUpRightFromSquare}
+                />
+              </li>
+              <li>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/records/KGWYV6TREQGM"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Project Planning: Putting It All Together
+                </a>
+                <FontAwesomeIcon
+                  className={`${utilStyles.icon} ${utilStyles.iconSuffix}`}
+                  icon={faArrowUpRightFromSquare}
+                />
+              </li>
+              <li>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/records/UA897GDXZJJA"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Project Execution: Running the Project
+                </a>
+                <FontAwesomeIcon
+                  className={`${utilStyles.icon} ${utilStyles.iconSuffix}`}
+                  icon={faArrowUpRightFromSquare}
+                />
+              </li>
+              <li>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/records/TVQ2666HMVNF"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Project Initiation: Starting a Successful Project
+                </a>
+                <FontAwesomeIcon
+                  className={`${utilStyles.icon} ${utilStyles.iconSuffix}`}
+                  icon={faArrowUpRightFromSquare}
+                />
+              </li>
+              <li>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/records/TSCBYB4DLHPH"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Foundations of Project Management
+                </a>
+                <FontAwesomeIcon
+                  className={`${utilStyles.icon} ${utilStyles.iconSuffix}`}
+                  icon={faArrowUpRightFromSquare}
+                />
+              </li>
+            </ul>
+          </li>
+          <li>
+            W3Schools:{' '}
+            <ul>
+              <li>
+                <a
+                  href="https://verify.w3schools.com/1P349VPU8T"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Certified PHP Developer
+                </a>
+                <FontAwesomeIcon
+                  className={`${utilStyles.icon} ${utilStyles.iconSuffix}`}
+                  icon={faArrowUpRightFromSquare}
+                />
+              </li>
+            </ul>
+          </li>
         </ul>
         <Subtitle text="contact" />
         {contacts}
