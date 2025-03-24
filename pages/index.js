@@ -42,12 +42,10 @@ export default function Home() {
       <section>
         <Title text="about" />
         <p>
-          I’m interested in doing good in the world. I believe top performance
-          comes from an environment where team members are encouraged and
-          enabled to learn. I bring 14 years of marketing communications and
-          project management experience, 5 years of web development experience,
-          and the knowledge gained from a Masters of Library and Information
-          Science. I’m diligent, reliable, and want to help.
+          I’m a versatile communicator with broad experience in fact-based
+          marketing communications, responsive project management,
+          customer-focused and accessible web development, and UX writing and
+          research skills. I’m diligent, reliable, and want to help.
         </p>
         <Subtitle text="skills" />
         <div className={styles.skill}>
