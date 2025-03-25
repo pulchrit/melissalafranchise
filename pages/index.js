@@ -46,9 +46,13 @@ export default function Home() {
         <Title text="about" />
         <p>
           I’m a versatile communicator with broad experience in fact-based
-          marketing communications, responsive project management,
-          customer-focused and accessible web development, and UX writing and
-          research. I’m diligent, reliable, and want to help.
+          marketing communications, project management, customer-focused and
+          accessible web development, and UX writing and research. I learn
+          quickly to understand users and reach them with compelling and usable
+          content. I understand digital communication tools from technical,
+          marketing, and content perspectives and am very effective at cross
+          team collaboration. I’m highly organized and craft actionable methods
+          for completing projects. I’m diligent, reliable, and want to help.
         </p>
         <Subtitle text="skills" />
         <div className={styles.skill}>
