@@ -49,10 +49,10 @@ export default function Home() {
           marketing communications, project management, customer-focused and
           accessible web development, and UX writing and research. I learn
           quickly to understand users and reach them with compelling and usable
-          content. I understand digital communication tools from technical,
-          marketing, and content perspectives and am very effective at cross
-          team collaboration. I’m highly organized and craft actionable methods
-          for completing projects. I’m diligent, reliable, and want to help.
+          content. I know how to create websites from technical, marketing, and
+          content perspectives and am very effective at cross collaboration. I’m
+          highly organized and craft actionable plans for completing projects.
+          I’m diligent, reliable, and want to help.
         </p>
         <Subtitle text="skills" />
         <div className={styles.skill}>
