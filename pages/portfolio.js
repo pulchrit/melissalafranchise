@@ -17,8 +17,7 @@ export default function Portfolio() {
       </Head>
       <section>
         <Title text="portfolio" />
-        <p>Sample personal, professional, and student projects.</p>
-        <div className={styles.wrapper}>{portfolioItems}</div>
+        <div className={styles.outerWrapper}>{portfolioItems}</div>
       </section>
     </>
   );

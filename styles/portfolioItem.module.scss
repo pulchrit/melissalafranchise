@@ -3,21 +3,28 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-bottom: 4%;
+  align-items: flex-start;
+  margin-bottom: 38px;
+  width: 100%;
 }
 
 .text {
   line-height: 1.45em;
-  text-align: center;
 }
 
-@media (min-width: 660px) {
-  .wrapper {
-    align-items: flex-start;
+.imageWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+
+  img {
+    margin: 10px 0;
   }
-  .text {
-    text-align: left;
+
+  @media (min-width: 660px) {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
@@ -28,12 +35,59 @@
   padding: 2px;
 }
 
-@media (max-width: 300px) {
-  .screenshot {
-    max-width: 100%;
+.AccordionRoot {
+  width: 100%;
+  border: 1px solid $link-color;
+  border-radius: $border-radius;
+  display: flex;
+  flex-direction: column;
+
+  &>div {
+    border-bottom: 1px solid $link-color;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  h3 {
+    all: unset;
+    display: flex;
+    flex: 1;
   }
 }
 
-.links {
-  padding-right: 12px;
+.AccordionTrigger {
+  all: unset;
+  color: $link-color;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 8px 10px;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    background-color: $link-color;
+    color: $background-color;
+    text-decoration: none;
+  }
+}
+
+.AccordionChevron {
+  transition: transform 300ms;
+}
+
+.AccordionTrigger[data-state="open"]>.AccordionChevron {
+  transform: rotate(180deg);
+}
+
+.AccordionContent {
+  border-top: 1px solid $link-color;
+  padding: 10px;
+}
+
+.AccordionContentText>p {
+  margin: 2% 0;
 }
