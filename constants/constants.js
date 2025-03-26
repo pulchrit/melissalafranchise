@@ -357,7 +357,7 @@ export const portfolioData = [
       },
       {
         id: 'copy-2',
-        src: '/images/accessible_copy_edit_2.png',
+        src: '/images/Accessible_copy_edit_2.png',
         alt: 'Google doc showing original wall of text.',
         width: 300,
         height: 200,
