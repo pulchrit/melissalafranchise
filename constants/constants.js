@@ -317,13 +317,15 @@ export const portfolioData = [
     id: 'portfolio-7',
     images: [
       {
+        id: 'accessible-1',
         src: '/images/Accessibility_Audit.png',
         alt: 'Google presentation slide showing Visual improvements required.',
         width: 300,
         height: 200,
         priority: true,
       },
-        {
+      {
+        id: 'accessible-2',
         src: '/images/Accessibility_Audit_2.png',
         alt: 'Google presentation slide showing Navigation improvements required.',
         width: 300,
@@ -346,18 +348,20 @@ export const portfolioData = [
     id: 'portfolio-6',
     images: [
       {
+        id: 'copy-1',
         src: '/images/accessible_copy_edit.png',
         alt: 'Google doc containing accessible web page copy.',
         width: 300,
         height: 200,
-        priority: true,
+        priority: false,
       },
       {
+        id: 'copy-2',
         src: '/images/accessible_copy_edit_2.png',
         alt: 'Google doc showing original wall of text.',
         width: 300,
         height: 200,
-        priority: true,
+        priority: false,
       },
     ],
     title: 'Web copy revision',
@@ -375,6 +379,7 @@ export const portfolioData = [
     id: 'portfolio-10',
     images: [
       {
+        id: 'fgh-1',
         src: '/images/fgh.png',
         alt: 'Financing Global Health site key findings page.',
         width: 300,
@@ -382,6 +387,7 @@ export const portfolioData = [
         priority: false,
       },
       {
+        id: 'fgh-2',
         src: '/images/fgh_2.png',
         alt: 'Financing Global Health site spenidng comparisons map.',
         width: 300,
@@ -456,6 +462,7 @@ export const portfolioData = [
     id: 'portfolio-5',
     images: [
       {
+        id: 'prs-1',
         src: '/images/pandemic.png',
         alt: 'Pandemic Recovery Survey introduction and key findings.',
         width: 300,
@@ -463,6 +470,7 @@ export const portfolioData = [
         priority: true,
       },
       {
+        id: 'prs-2',
         src: '/images/prs_2.png',
         alt: 'Pandemic Recovery Survey life satisfaction bar chart.',
         width: 300,
@@ -512,6 +520,7 @@ export const portfolioData = [
     id: 'portfolio-2',
     images: [
       {
+        id: 'who-1',
         src: '/images/WHO.png',
         alt: 'WHO Rehabilitation Need Estimator key findings.',
         width: 300,
@@ -519,6 +528,7 @@ export const portfolioData = [
         priority: false,
       },
       {
+        id: 'who-2',
         src: '/images/who_2.png',
         alt: 'WHO Rehabilitation Need Estimator conditions bar chart.',
         width: 300,

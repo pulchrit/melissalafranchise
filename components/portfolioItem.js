@@ -19,8 +19,9 @@ export default function PortfolioItem({
   outcome,
 }) {
   const imageContent = useMemo(() => {
-    return images.map(({ src, alt, width, height, priority }) => (
+    return images.map(({ src, alt, width, height, priority, id }) => (
       <Image
+        key={id}
         alt={alt}
         className={styles.screenshot}
         height={height}
