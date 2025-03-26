@@ -29,11 +29,8 @@ export default function PortfolioItem({
         src={src}
         width={width}
       />
-      )
-    );
-    }, [images]
-  );
-
+    ));
+  }, [images]);
 
   // Accordion setup
   const AccordionTrigger = forwardRef(
@@ -103,7 +100,12 @@ export default function PortfolioItem({
       </a>
       <p>{type}</p>
       <p className={styles.text}>{code}</p>
-      <a className={styles.imageWrapper} href={href} target="_blank" rel="noopener">
+      <a
+        className={styles.imageWrapper}
+        href={href}
+        target="_blank"
+        rel="noopener"
+      >
         {imageContent}
       </a>
       <Accordion.Root

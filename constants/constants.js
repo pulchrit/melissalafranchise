@@ -501,15 +501,14 @@ export const portfolioData = [
           We wanted the visualization to be simple and easy to understand, to be
           as accessible as possible, and to be as mobile friendly as possible.
         </p>
-         <p>
+        <p>
           Wrote the back and frontend code using Node, React, D3, multiple React
-          packages, and Sass. Refactored and improved code performance as 
+          packages, and Sass. Refactored and improved code performance as
           recommended by the senior developer.
         </p>
       </>
     ),
-    outcome: 
-      `With guidance from the senior developer, I realized these goals using
+    outcome: `With guidance from the senior developer, I realized these goals using
       React, React packages, and Sass. At the time of its launch, it was one
       of the most accessible, mobile friendly, and easy to interpret
       visualization tools. We told a story with the data that gave
@@ -545,11 +544,18 @@ export const portfolioData = [
     action: (
       <>
         <p>
-          The research team had a specific set of visualizations they wanted included. I suggested adding a key findings page to reach policy makers${EMDASH}a target audience who, because they were not data experts, were historically neglected in IHME visualizations. I created a simple mock-up of my idea and shared it with the rest of the visualization team. Some members instantly understood the value, others took some convincing. Ultimately, the research team accepted it as a compelling way to share their research findings.
+          The research team had a specific set of visualizations they wanted
+          included. I suggested adding a key findings page to reach policy
+          makers${EMDASH}a target audience who, because they were not data
+          experts, were historically neglected in IHME visualizations. I created
+          a simple mock-up of my idea and shared it with the rest of the
+          visualization team. Some members instantly understood the value,
+          others took some convincing. Ultimately, the research team accepted it
+          as a compelling way to share their research findings.
         </p>
         <p>
           Wrote the back and frontend code using Node, React, D3, multiple React
-          packages, and Sass. Refactored and improved code performance as 
+          packages, and Sass. Refactored and improved code performance as
           recommended by the senior developer.
         </p>
       </>
