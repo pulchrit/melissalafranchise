@@ -335,7 +335,7 @@ export const portfolioData = [
     ],
     title: 'Accessibility audit',
     code: 'Evaluated sample homepage for accessibility compliance and specified recommendations for improvements. Request access to view.',
-    type: `Content design ${PIPE} Student project`,
+    type: `Content design ${PIPE} Accessibility ${PIPE} Student project`,
     href: 'https://docs.google.com/presentation/d/1l7O8D2QsvCJi8FTWhy_3bPGvEZz9lWOPgDf__fW-AoM/edit?usp=drive_link',
     challenge:
       'Perform an accessibility audit on an example site and make recommendations for updates to achieve Web Content Accessibility Guidelines (WCAG) compliance.',
