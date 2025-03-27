@@ -345,83 +345,6 @@ export const portfolioData = [
       'I shared a presentation that details updates to the site to ensure it’s understandable and usable for all. Making sites accessible makes them easier to use for everyone. This increases the audience size and can lead directly to increases in revenue, positive brand associations, and higher Net Promoter Scores. Making sites accessible is also the right thing to do.',
   },
   {
-    id: 'portfolio-8',
-    images: [
-      {
-        id: 'research-1',
-        src: '/images/research_1.png',
-        alt: 'Google presentation slide showing positive findings, and short and long term changes.',
-        width: 300,
-        height: 200,
-        priority: false,
-      },
-      {
-        id: 'research-2',
-        src: '/images/research_2.png',
-        alt: 'Google presentation slide of a bar chart showing ease of use by task. The create account task was the easiest for testers to complete.',
-        width: 300,
-        height: 200,
-        priority: false,
-      },
-    ],
-    title: 'User research and analysis',
-    code: 'Performed user research, analyzed results, and shared recommendations for fact-based improvements to a payment app. Request access to view.',
-    type: `Content design ${PIPE} User research ${PIPE} Student project`,
-    href: 'https://docs.google.com/presentation/d/1uCLXsjPtDXdIH1iX409MjZRjaGYknaOYuevA51HvB7k/edit?usp=sharing',
-
-    challenge:
-      'Perform sentiment analysis and usability testing on a prototype for a payment app, analyze and share results.',
-    action: (
-      <>
-        <p>
-          I completed in-person sentiment analysis via highlighter testing and
-          virtual usability testing with{' '}
-          <a href="https://www.usertesting.com/" target="_blank" rel="noopener">
-            UserTesting
-          </a>
-          . I compiled and analyzed the results–along with results from
-          previously conducted in-person usability testing–into a presentation
-          summarizing findings and detailing clear ways to improve the app.
-          Additionally, I provided mock-ups for future A/B tests of particular
-          screens and flows to continue improving the app once launched.
-        </p>
-      </>
-    ),
-    outcome:
-      'I delivered an actionable, fact-based set of recommendations to improve the app. Based on actual customer input, these recommendations would potentially lead to an increase in sign ups, app use, and ultimately generate more revenue for the company.',
-  },
-  {
-    id: 'portfolio-6',
-    images: [
-      {
-        id: 'copy-1',
-        src: '/images/accessible_copy_edit.png',
-        alt: 'Google doc containing accessible web page copy.',
-        width: 300,
-        height: 200,
-        priority: false,
-      },
-      {
-        id: 'copy-2',
-        src: '/images/Accessible_copy_edit_2.png',
-        alt: 'Google doc showing original wall of text.',
-        width: 300,
-        height: 200,
-        priority: false,
-      },
-    ],
-    title: 'Web copy revision',
-    code: 'Crafted accessible web copy with a bit of design direction. Request access to view.',
-    type: `Content design ${PIPE} Student project`,
-    href: 'https://docs.google.com/document/d/1SSZr80VT7wJDY8UW5t5eHBOWC0_UbSO-QaISUPF3R8I/edit?usp=sharing',
-
-    challenge:
-      'Take a "wall of text" and turn it into accessible web page content.',
-    action: 'I reworked copy per web content best practices.',
-    outcome:
-      'This was a straightforward student project to take wordy and unorganized content and transform it into understandable, interesting, and concise web copy.',
-  },
-  {
     id: 'portfolio-10',
     images: [
       {
@@ -505,6 +428,52 @@ export const portfolioData = [
     ),
   },
   {
+    id: 'portfolio-8',
+    images: [
+      {
+        id: 'research-1',
+        src: '/images/research_1.png',
+        alt: 'Google presentation slide showing positive findings, and short and long term changes.',
+        width: 300,
+        height: 200,
+        priority: false,
+      },
+      {
+        id: 'research-2',
+        src: '/images/research_2.png',
+        alt: 'Google presentation slide of a bar chart showing ease of use by task. The create account task was the easiest for testers to complete.',
+        width: 300,
+        height: 200,
+        priority: false,
+      },
+    ],
+    title: 'User research and analysis',
+    code: 'Performed user research, analyzed results, and shared recommendations for fact-based improvements to a payment app. Request access to view.',
+    type: `Content design ${PIPE} User research ${PIPE} Student project`,
+    href: 'https://docs.google.com/presentation/d/1uCLXsjPtDXdIH1iX409MjZRjaGYknaOYuevA51HvB7k/edit?usp=sharing',
+
+    challenge:
+      'Perform sentiment analysis and usability testing on a prototype for a payment app, analyze and share results.',
+    action: (
+      <>
+        <p>
+          I completed in-person sentiment analysis via highlighter testing and
+          virtual usability testing with{' '}
+          <a href="https://www.usertesting.com/" target="_blank" rel="noopener">
+            UserTesting
+          </a>
+          . I compiled and analyzed the results–along with results from
+          previously conducted in-person usability testing–into a presentation
+          summarizing findings and detailing clear ways to improve the app.
+          Additionally, I provided mock-ups for future A/B tests of particular
+          screens and flows to continue improving the app once launched.
+        </p>
+      </>
+    ),
+    outcome:
+      'I delivered an actionable, fact-based set of recommendations to improve the app. Based on actual customer input, these recommendations would potentially lead to an increase in sign ups, app use, and ultimately generate more revenue for the company.',
+  },
+  {
     id: 'portfolio-5',
     images: [
       {
@@ -560,6 +529,37 @@ export const portfolioData = [
       visualization tools. We told a story with the data that gave
       government health monitors in 21 countries a strong indication of how
       their people were recovering from the pandemic.`,
+  },
+  {
+    id: 'portfolio-6',
+    images: [
+      {
+        id: 'copy-1',
+        src: '/images/accessible_copy_edit.png',
+        alt: 'Google doc containing accessible web page copy.',
+        width: 300,
+        height: 200,
+        priority: false,
+      },
+      {
+        id: 'copy-2',
+        src: '/images/Accessible_copy_edit_2.png',
+        alt: 'Google doc showing original wall of text.',
+        width: 300,
+        height: 200,
+        priority: false,
+      },
+    ],
+    title: 'Web copy revision',
+    code: 'Crafted accessible web copy with a bit of design direction. Request access to view.',
+    type: `Content design ${PIPE} Student project`,
+    href: 'https://docs.google.com/document/d/1SSZr80VT7wJDY8UW5t5eHBOWC0_UbSO-QaISUPF3R8I/edit?usp=sharing',
+
+    challenge:
+      'Take a "wall of text" and turn it into accessible web page content.',
+    action: 'I reworked copy per web content best practices.',
+    outcome:
+      'This was a straightforward student project to take wordy and unorganized content and transform it into understandable, interesting, and concise web copy.',
   },
   {
     id: 'portfolio-2',
