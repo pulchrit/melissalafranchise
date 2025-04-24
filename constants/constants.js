@@ -428,6 +428,28 @@ export const portfolioData = [
     ),
   },
   {
+    id: 'portfolio-1',
+    images: [
+      {
+        id: 'ocarc-1',
+        src: '/images/ocarc.png',
+        alt: 'Logo of the Orange County Animal Rescue Coalition showing three cats drinking from a bowl of milk that is the O in OCARC.',
+        width: 300,
+        height: 200,
+        priority: false,
+      },
+    ],
+    title: 'Orange County Animal Rescue Coalition - Logo design',
+    code: 'Created a logo for the Orange Country Animal Rescue Coalition that captured their focus on cats and kittens.',
+    type: `Logo design ${PIPE} Pro bono project`,
+    href: 'https://drive.google.com/file/d/1ldSXxwMlEG0bvGDgxM3WbtrsAj9XXUDx/view?usp=sharing',
+    challenge:
+      'Created this whimsical logo for a coworker. She was a volunteer with the Orange County Animal Rescue Coalition.',
+    action: `As the main focus was on fostering and adopting cats and kittens, I thought the image of the cats drinking from a bowl would communicate that focus without the need for additional descriptive text${EMDASH}and it was really quite endearing.`,
+    outcome:
+      'Though I created this logo in 2004, they are still using it today in 2025!',
+  },
+  {
     id: 'portfolio-8',
     images: [
       {
@@ -495,7 +517,7 @@ export const portfolioData = [
     ],
     title: 'Pandemic Recovery Survey - Website creation',
     code: 'Planned and executed a new data visualization tool using React, Redux Toolkit, React Query, Ant Design, and D3. Ensured the tool was accessibile and mobile friendly. Contributed to content design to showcase the data for multiple target audiences.',
-    type: `Web development ${PIPE} Content Design ${PIPE} Professional project`,
+    type: `Web development ${PIPE} Content design ${PIPE} Professional project`,
     href: 'https://vizhub.healthdata.org/pandemic-recovery-survey/',
     challenge:
       'As lead developer working under the guidance of a senior developer and project manager, create a new visualization tool for a research team that showcased their data on the effects of the COVID-19 pandemic.',
@@ -529,6 +551,28 @@ export const portfolioData = [
       visualization tools. We told a story with the data that gave
       government health monitors in 21 countries a strong indication of how
       their people were recovering from the pandemic.`,
+  },
+  {
+    id: 'portfolio-3',
+    images: [
+      {
+        id: 'bohde-1',
+        src: '/images/bohde_identity.png',
+        alt: 'Letterhead for Cindy Bodhe Enterprises, Inc.',
+        width: 300,
+        height: 200,
+        priority: false,
+      },
+    ],
+    title: 'Cindy Bohde Enterprises, Inc. - Identity design',
+    code: 'Created letterhead, envelopes, and business cards for Cindy Bodhe Enterprises, Inc.',
+    type: `Identity design ${PIPE} Professional project`,
+    href: 'https://drive.google.com/file/d/1NCRnr3mZbsW3sz0m0QB9USU1mbElFiFN/view?usp=sharing',
+    challenge:
+      'Created the logo, letterhead, envelopes, and business cards for Cindy Bodhe.',
+    action: `I created a professional, sleek, and mature design to match the expertise and bearing of a keen professional.`,
+    outcome:
+      'Cindy was pleased with the logo and identity pieces back in 2003 and continues to use them today.',
   },
   {
     id: 'portfolio-6',
@@ -583,7 +627,7 @@ export const portfolioData = [
     ],
     title: 'WHO Rehabilitation Need Estimator - Website creation',
     code: 'Created a new data visualization tool using React, Redux, React Query, Ant Design, and IHME UI. Contributed to content design by crafting the key findings view to reach a valuable target audience.',
-    type: `Web development ${PIPE} Content Design ${PIPE} Professional project`,
+    type: `Web development ${PIPE} Content design ${PIPE} Professional project`,
     href: 'https://vizhub.healthdata.org/rehabilitation/',
     challenge:
       'As a new developer working under the guidance of a senior developer, create a new visualization tool that shared the rehabilitation needs of the global population for an Insitute for Health Metrcis and Evaluation (IHME) research team and the World Health Organization (WHO).',
