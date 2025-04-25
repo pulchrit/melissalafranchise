@@ -569,7 +569,7 @@ export const portfolioData = [
     type: `Identity design ${PIPE} Professional project`,
     href: 'https://drive.google.com/file/d/1NCRnr3mZbsW3sz0m0QB9USU1mbElFiFN/view?usp=sharing',
     challenge:
-      'Created the logo, letterhead, envelopes, and business cards for Cindy Bodhe.',
+      'Created the logo, letterhead, envelopes, and business cards for Cindy Bohde.',
     action: `I created a professional, sleek, and mature design to match the expertise and bearing of a keen professional.`,
     outcome:
       'Cindy was pleased with the logo and identity pieces back in 2003 and continues to use them today.',
@@ -652,5 +652,25 @@ export const portfolioData = [
     ),
     outcome:
       'The key findings page highlighted important research results, captured visitors’ attention, and made the visualization accessible to a wider audience. The idea of a key findings page was added to the visualization team’s set of ways to present data.',
+  },
+  {
+    id: 'portfolio-4',
+    images: [
+      {
+        id: 'cheetah-1',
+        src: '/images/silk_screen_1.png',
+        alt: 'Black silk screened image of a cheetah face on a gray tshirt.',
+        width: 300,
+        height: 200,
+        priority: false,
+      },
+    ],
+    title: 'Cheetah tshirt - Illustration',
+    code: 'Cheetah illustration for silk screened tshirt',
+    type: `Illustration ${PIPE} Personal project`,
+    href: 'https://drive.google.com/file/d/1A4PnU5wqv_wPScmBmcSKwyt9PPHo6T5C/view?usp=sharing',
+    challenge: 'My daughter loves cheetahs and wanted a cheetah tshirt.',
+    action: `I drew a cheetah face, created a stencil, and silk screened the image on to tshirts for her, her sister, and their friend.`,
+    outcome: 'Joy! The girls loved their custom tshirts.',
   },
 ];
