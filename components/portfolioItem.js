@@ -50,7 +50,6 @@ export default function PortfolioItem({
 
   AccordionTrigger.displayName = 'AccordionTrigger';
 
-  // to do: create accordioncontentext style
   const AccordionContent = forwardRef(
     ({ children, ...props }, forwardedRef) => (
       <Accordion.Content
