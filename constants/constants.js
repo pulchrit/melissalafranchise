@@ -670,7 +670,7 @@ export const portfolioData = [
     type: `Illustration ${PIPE} Personal project`,
     href: 'https://drive.google.com/file/d/1A4PnU5wqv_wPScmBmcSKwyt9PPHo6T5C/view?usp=sharing',
     challenge: 'My daughter loves cheetahs and wanted a cheetah tshirt.',
-    action: `I drew a cheetah face, created a stencil, and silk screened the image on to tshirts for her, her sister, and their friend.`,
+    action: `I drew a cheetah, created a stencil, and silk screened the image onto tshirts for her, her sister, and their friend.`,
     outcome: 'Joy! The girls loved their custom tshirts.',
   },
 ];
