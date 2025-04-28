@@ -442,7 +442,7 @@ export const portfolioData = [
     title: 'Orange County Animal Rescue Coalition - Logo design',
     code: 'Created a logo for the Orange Country Animal Rescue Coalition that captured their focus on cats and kittens.',
     type: `Logo design ${PIPE} Pro bono project`,
-    href: 'https://drive.google.com/file/d/1ldSXxwMlEG0bvGDgxM3WbtrsAj9XXUDx/view?usp=sharing',
+    href: 'https://drive.google.com/file/d/1ldSXxwMlEG0bvGDgxM3WbtrsAj9XXUDx/view?usp=drive_link',
     challenge:
       'Created this whimsical logo for a coworker. She was a volunteer with the Orange County Animal Rescue Coalition.',
     action: `As the main focus was on fostering and adopting cats and kittens, I thought the image of the cats drinking from a bowl would communicate that focus without the need for additional descriptive text${EMDASH}and it was really quite endearing.`,
@@ -567,7 +567,7 @@ export const portfolioData = [
     title: 'Cindy Bohde Enterprises, Inc. - Identity design',
     code: 'Created letterhead, envelopes, and business cards for Cindy Bodhe Enterprises, Inc.',
     type: `Identity design ${PIPE} Professional project`,
-    href: 'https://drive.google.com/file/d/1NCRnr3mZbsW3sz0m0QB9USU1mbElFiFN/view?usp=sharing',
+    href: 'https://drive.google.com/file/d/1NCRnr3mZbsW3sz0m0QB9USU1mbElFiFN/view?usp=drive_link',
     challenge:
       'Created the logo, letterhead, envelopes, and business cards for Cindy Bohde.',
     action: `I created a professional, sleek, and mature design to match the expertise and bearing of a keen professional.`,
@@ -668,7 +668,7 @@ export const portfolioData = [
     title: 'Cheetah tshirt - Illustration',
     code: 'Cheetah illustration for silk screened tshirt',
     type: `Illustration ${PIPE} Personal project`,
-    href: 'https://drive.google.com/file/d/1A4PnU5wqv_wPScmBmcSKwyt9PPHo6T5C/view?usp=sharing',
+    href: 'https://drive.google.com/file/d/1A4PnU5wqv_wPScmBmcSKwyt9PPHo6T5C/view?usp=drive_link',
     challenge: 'My daughter loves cheetahs and wanted a cheetah tshirt.',
     action: `I drew a cheetah, created a stencil, and silk screened the image onto tshirts for her, her sister, and their friend.`,
     outcome: 'Joy! The girls loved their custom tshirts.',
