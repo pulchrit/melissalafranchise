@@ -13,22 +13,22 @@ export default function PortfolioItem({
   title,
   code,
   type,
-  href,
   challenge,
   action,
   outcome,
 }) {
   const imageContent = useMemo(() => {
-    return images.map(({ src, alt, width, height, priority, id }) => (
-      <Image
-        key={id}
-        alt={alt}
-        className={styles.screenshot}
-        height={height}
-        priority={priority}
-        src={src}
-        width={width}
-      />
+    return images.map(({ src, alt, width, height, href, priority, id }) => (
+      <a key={id} href={href} target="_blank" rel="noopener">
+        <Image
+          alt={alt}
+          className={styles.screenshot}
+          height={height}
+          priority={priority}
+          src={src}
+          width={width}
+        />
+      </a>
     ));
   }, [images]);
 
@@ -86,7 +86,7 @@ export default function PortfolioItem({
 
   return (
     <div className={styles.wrapper}>
-      <a href={href} target="_blank" rel="noopener">
+      <a href={images[0].href} target="_blank" rel="noopener">
         <h3
           className={classnames(
             highlightFont.className,
@@ -99,14 +99,7 @@ export default function PortfolioItem({
       </a>
       <p>{type}</p>
       <p className={styles.text}>{code}</p>
-      <a
-        className={styles.imageWrapper}
-        href={href}
-        target="_blank"
-        rel="noopener"
-      >
-        {imageContent}
-      </a>
+      <div className={styles.imageWrapper}>{imageContent}</div>
       <Accordion.Root
         className={styles.AccordionRoot}
         type="single"

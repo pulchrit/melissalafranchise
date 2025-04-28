@@ -314,6 +314,67 @@ export const experienceTypes = ['all', 'employment', 'education', 'other'];
 
 export const portfolioData = [
   {
+    id: 'portfolio-9',
+    images: [
+      {
+        id: 'writing-1',
+        src: '/images/writing1.png',
+        alt: 'Figma mock-up of content design for the JobPay payment app.',
+        width: 300,
+        height: 200,
+        priority: true,
+        href: 'https://www.figma.com/design/mwnIEPYiDmtVb4cfYw5rNJ/Content-Design-Example--Onboarding-and-User-Flows?node-id=5-87&t=2pMk0l5cNZ0KzcwA-1',
+      },
+      {
+        id: 'writing-2',
+        src: '/images/writing2.png',
+        alt: 'Style guide for the JobPay payment app.',
+        width: 300,
+        height: 200,
+        priority: true,
+        href: 'https://docs.google.com/document/d/1x6GndaOGfnfqTjW9wjwVo9WUVs1CAeID7knCWhF9vJk/edit?usp=sharing',
+      },
+    ],
+    title: 'JobPay app - UX content design ',
+    code: (
+      <>
+        Revised existing Figma mock-ups with effective UX copy. Included
+        clarifying questions and suggestions for content updates. Created a
+        detailed style guide for use by coworkers. (Please{' '}
+        {
+          <a href="mailto:pulchrit@gamil.com" target="_blank" rel="noopener">
+            email
+          </a>
+        }{' '}
+        for Figma password and to request access to the Google doc.)
+      </>
+    ),
+    type: `Content design ${PIPE} Student project`,
+    challenge:
+      'As the final project for the Fundamentals of UX Writing course, updated UX copy in a fictional payment app called JobPay and also created a content style guide for the app.',
+    action:
+      'Across three onboarding and user flows, I applied content design best practices to create clear, helpful, actionable content for the JobPay app. I included questions, comments, and suggestions as a way to collaborate with the design, marketing, and development teams. I ensured voice and tone were appropriate and based on actual user research. I delineated guiding principles, voice, tone, and specific component text direction and examples in a thorough style guide.',
+    outcome: (
+      <>
+        <p>
+          {`The updated content makes the app attractive, understandable, and
+          accessible for the two main audiences${EMDASH}freelancers and business
+          owners. I ensured users understood the value of JobPay and how it
+          would benefit them. I wrote UI text that was clear, helpful, and
+          explained explained how to efficiently use the app. Further, notes
+          with kind suggestions and questions provided feedback to the
+          design, marketing, and development teams, ideally sparking creative
+          collaboration and improvements to the app.`}
+        </p>
+        <p>
+          The detailed style guide explains how coworkers should apply JobPay’s
+          content principles, voice, and tone to any JobPay content for
+          effectiveness and consistency.
+        </p>
+      </>
+    ),
+  },
+  {
     id: 'portfolio-7',
     images: [
       {
@@ -323,6 +384,7 @@ export const portfolioData = [
         width: 300,
         height: 200,
         priority: true,
+        href: 'https://docs.google.com/presentation/d/1l7O8D2QsvCJi8FTWhy_3bPGvEZz9lWOPgDf__fW-AoM/edit?usp=drive_link',
       },
       {
         id: 'accessible-2',
@@ -331,12 +393,12 @@ export const portfolioData = [
         width: 300,
         height: 200,
         priority: true,
+        href: 'https://docs.google.com/presentation/d/1l7O8D2QsvCJi8FTWhy_3bPGvEZz9lWOPgDf__fW-AoM/edit?usp=drive_link',
       },
     ],
     title: 'Accessibility audit',
     code: 'Evaluated sample homepage for accessibility compliance and specified recommendations for improvements. Request access to view.',
     type: `Content design ${PIPE} Accessibility ${PIPE} Student project`,
-    href: 'https://docs.google.com/presentation/d/1l7O8D2QsvCJi8FTWhy_3bPGvEZz9lWOPgDf__fW-AoM/edit?usp=drive_link',
     challenge:
       'Perform an accessibility audit on an example site and make recommendations for updates to achieve Web Content Accessibility Guidelines (WCAG) compliance.',
     action:
@@ -354,6 +416,7 @@ export const portfolioData = [
         width: 300,
         height: 200,
         priority: false,
+        href: 'https://vizhub.healthdata.org/fgh/',
       },
       {
         id: 'fgh-2',
@@ -362,12 +425,12 @@ export const portfolioData = [
         width: 300,
         height: 200,
         priority: false,
+        href: 'https://vizhub.healthdata.org/fgh/',
       },
     ],
     title: 'Financing Global Health - Website redesign',
     code: 'Defined goals, deliverables, and plan for the redesign of multiple visualization tools. Executed redesign using React and Sass.',
     type: `Web development ${PIPE} Project management ${PIPE} Professional project`,
-    href: 'https://vizhub.healthdata.org/fgh/',
     challenge:
       'Lead a two person working group to plan and implement the redesign of multiple Institute for Health Metrics and Evaluation (IHME) visualization websites.',
     action: (
@@ -437,12 +500,12 @@ export const portfolioData = [
         width: 300,
         height: 200,
         priority: false,
+        href: 'https://drive.google.com/file/d/1ldSXxwMlEG0bvGDgxM3WbtrsAj9XXUDx/view?usp=drive_link',
       },
     ],
     title: 'Orange County Animal Rescue Coalition - Logo design',
     code: 'Created a logo for the Orange Country Animal Rescue Coalition that captured their focus on cats and kittens.',
     type: `Logo design ${PIPE} Pro bono project`,
-    href: 'https://drive.google.com/file/d/1ldSXxwMlEG0bvGDgxM3WbtrsAj9XXUDx/view?usp=drive_link',
     challenge:
       'Created this whimsical logo for a coworker. She was a volunteer with the Orange County Animal Rescue Coalition.',
     action: `As the main focus was on fostering and adopting cats and kittens, I thought the image of the cats drinking from a bowl would communicate that focus without the need for additional descriptive text${EMDASH}and it was really quite endearing.`,
@@ -459,6 +522,7 @@ export const portfolioData = [
         width: 300,
         height: 200,
         priority: false,
+        href: 'https://docs.google.com/presentation/d/1uCLXsjPtDXdIH1iX409MjZRjaGYknaOYuevA51HvB7k/edit?usp=sharing',
       },
       {
         id: 'research-2',
@@ -467,13 +531,12 @@ export const portfolioData = [
         width: 300,
         height: 200,
         priority: false,
+        href: 'https://docs.google.com/presentation/d/1uCLXsjPtDXdIH1iX409MjZRjaGYknaOYuevA51HvB7k/edit?usp=sharing',
       },
     ],
     title: 'User research and analysis',
     code: 'Performed user research, analyzed results, and shared recommendations for fact-based improvements to a payment app. Request access to view.',
     type: `Content design ${PIPE} User research ${PIPE} Student project`,
-    href: 'https://docs.google.com/presentation/d/1uCLXsjPtDXdIH1iX409MjZRjaGYknaOYuevA51HvB7k/edit?usp=sharing',
-
     challenge:
       'Perform sentiment analysis and usability testing on a prototype for a payment app, analyze and share results.',
     action: (
@@ -505,6 +568,7 @@ export const portfolioData = [
         width: 300,
         height: 200,
         priority: true,
+        href: 'https://vizhub.healthdata.org/pandemic-recovery-survey/',
       },
       {
         id: 'prs-2',
@@ -513,12 +577,12 @@ export const portfolioData = [
         width: 300,
         height: 200,
         priority: true,
+        href: 'https://vizhub.healthdata.org/pandemic-recovery-survey/',
       },
     ],
     title: 'Pandemic Recovery Survey - Website creation',
     code: 'Planned and executed a new data visualization tool using React, Redux Toolkit, React Query, Ant Design, and D3. Ensured the tool was accessibile and mobile friendly. Contributed to content design to showcase the data for multiple target audiences.',
     type: `Web development ${PIPE} Content design ${PIPE} Professional project`,
-    href: 'https://vizhub.healthdata.org/pandemic-recovery-survey/',
     challenge:
       'As lead developer working under the guidance of a senior developer and project manager, create a new visualization tool for a research team that showcased their data on the effects of the COVID-19 pandemic.',
     action: (
@@ -562,12 +626,12 @@ export const portfolioData = [
         width: 300,
         height: 200,
         priority: false,
+        href: 'https://drive.google.com/file/d/1NCRnr3mZbsW3sz0m0QB9USU1mbElFiFN/view?usp=drive_link',
       },
     ],
     title: 'Cindy Bohde Enterprises, Inc. - Identity design',
     code: 'Created letterhead, envelopes, and business cards for Cindy Bodhe Enterprises, Inc.',
     type: `Identity design ${PIPE} Professional project`,
-    href: 'https://drive.google.com/file/d/1NCRnr3mZbsW3sz0m0QB9USU1mbElFiFN/view?usp=drive_link',
     challenge:
       'Created the logo, letterhead, envelopes, and business cards for Cindy Bohde.',
     action: `I created a professional, sleek, and mature design to match the expertise and bearing of a keen professional.`,
@@ -584,6 +648,7 @@ export const portfolioData = [
         width: 300,
         height: 200,
         priority: false,
+        href: 'https://docs.google.com/document/d/1SSZr80VT7wJDY8UW5t5eHBOWC0_UbSO-QaISUPF3R8I/edit?usp=sharing',
       },
       {
         id: 'copy-2',
@@ -592,13 +657,12 @@ export const portfolioData = [
         width: 300,
         height: 200,
         priority: false,
+        href: 'https://docs.google.com/document/d/1SSZr80VT7wJDY8UW5t5eHBOWC0_UbSO-QaISUPF3R8I/edit?usp=sharing',
       },
     ],
     title: 'Web copy revision',
     code: 'Crafted accessible web copy with a bit of design direction. Request access to view.',
     type: `Content design ${PIPE} Student project`,
-    href: 'https://docs.google.com/document/d/1SSZr80VT7wJDY8UW5t5eHBOWC0_UbSO-QaISUPF3R8I/edit?usp=sharing',
-
     challenge:
       'Take a "wall of text" and turn it into accessible web page content.',
     action: 'I reworked copy per web content best practices.',
@@ -615,6 +679,7 @@ export const portfolioData = [
         width: 300,
         height: 200,
         priority: false,
+        href: 'https://vizhub.healthdata.org/rehabilitation/',
       },
       {
         id: 'who-2',
@@ -623,12 +688,12 @@ export const portfolioData = [
         width: 300,
         height: 200,
         priority: false,
+        href: 'https://vizhub.healthdata.org/rehabilitation/',
       },
     ],
     title: 'WHO Rehabilitation Need Estimator - Website creation',
     code: 'Created a new data visualization tool using React, Redux, React Query, Ant Design, and IHME UI. Contributed to content design by crafting the key findings view to reach a valuable target audience.',
     type: `Web development ${PIPE} Content design ${PIPE} Professional project`,
-    href: 'https://vizhub.healthdata.org/rehabilitation/',
     challenge:
       'As a new developer working under the guidance of a senior developer, create a new visualization tool that shared the rehabilitation needs of the global population for an Insitute for Health Metrcis and Evaluation (IHME) research team and the World Health Organization (WHO).',
     action: (
@@ -663,12 +728,12 @@ export const portfolioData = [
         width: 300,
         height: 200,
         priority: false,
+        href: 'https://drive.google.com/file/d/1A4PnU5wqv_wPScmBmcSKwyt9PPHo6T5C/view?usp=drive_link',
       },
     ],
     title: 'Cheetah tshirt - Illustration',
     code: 'Cheetah illustration for silk screened tshirt',
     type: `Illustration ${PIPE} Personal project`,
-    href: 'https://drive.google.com/file/d/1A4PnU5wqv_wPScmBmcSKwyt9PPHo6T5C/view?usp=drive_link',
     challenge: 'My daughter loves cheetahs and wanted a cheetah tshirt.',
     action: `I drew a cheetah, created a stencil, and silk screened the image onto tshirts for her, her sister, and their friend.`,
     outcome: 'Joy! The girls loved their custom tshirts.',
