@@ -109,11 +109,21 @@ export default function Home() {
         <Subtitle text="certifications" />
         <ul>
           <li>
-            Currently enrolled: UX Content Collective Fundamentals of UX Writing
-          </li>
-          <li>
             UX Content Collective:{' '}
             <ul>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1rtZeqvl7Q8RvXQQ9BGTv4yps0g_oAu0A/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Fundamentals of UX Writing
+                </a>
+                <FontAwesomeIcon
+                  className={`${utilStyles.icon} ${utilStyles.iconSuffix}`}
+                  icon={faArrowUpRightFromSquare}
+                />
+              </li>
               <li>
                 <a
                   href="https://drive.google.com/file/d/1vQfhDNAU24zpRnkughN5fArI4PRj54Ky/view?usp=sharing"
