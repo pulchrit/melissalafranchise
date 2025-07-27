@@ -432,7 +432,7 @@ export const portfolioData = [
     code: 'Defined goals, deliverables, and plan for the redesign of multiple visualization tools. Executed redesign using React and Sass.',
     type: `Web development ${PIPE} Project management ${PIPE} Professional project`,
     challenge:
-      'Lead a two person working group to plan and implement the redesign of multiple Institute for Health Metrics and Evaluation (IHME) visualization websites.',
+      'Led a two person working group to plan and implement the redesign of multiple Institute for Health Metrics and Evaluation (IHME) visualization websites.',
     action: (
       <>
         <p>
