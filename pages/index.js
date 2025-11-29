@@ -46,13 +46,12 @@ export default function Home() {
         <Title text="about" />
         <p>
           I’m a versatile communicator with broad experience in fact-based
-          marketing communications, project management, customer-focused and
-          accessible web development, and UX writing and research. I learn
-          quickly to understand users and reach them with compelling and usable
-          content. I know how to create websites from technical, marketing, and
-          content perspectives and am very effective at cross collaboration. I’m
-          highly organized and craft actionable plans for completing projects.
-          I’m diligent, reliable, and want to help.
+          marketing communications, fastidious project management,
+          customer-focused and accessible web development, compelling UX writing
+          and research, and meticulous proofreading. I am an effective,
+          respectful collaborator. I’m highly organized, craft succinct and
+          actionable plans, and learn quickly. I’m diligent, reliable, and want
+          to help.
         </p>
         <Subtitle text="skills" />
         <div className={styles.skill}>
@@ -65,8 +64,8 @@ export default function Home() {
             Marketing, Content, and Design:
           </h4>{' '}
           <ul>
-            <li>Marketing communication planning and budgeting</li>
-            <li>Process improvement</li>
+            <li>Planning and budgeting</li>
+            <li>Writing and proofreading</li>
             <li>Accessible content design</li>
             <li>Content research and testing</li>
             <li>UI/UX design</li>
@@ -85,7 +84,7 @@ export default function Home() {
             <li>Waterfall and agile methodologies</li>
             <li>Scoping and planning</li>
             <li>Risk identification and mitigation</li>
-            <li>Effective and appropriate communication</li>
+            <li>Effective, professional communication</li>
           </ul>
         </div>
         <div className={styles.skill}>
@@ -108,6 +107,25 @@ export default function Home() {
         </div>
         <Subtitle text="certifications" />
         <ul>
+           <li>
+            Proofread Anywhere:{' '}
+            <ul>
+              <li>
+                <a
+                  href="https://www.credential.net/312b1394-3342-4bdd-a946-2f916b60d2ff#acc.vUpcOfI6"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  General Proofreading: Theory & Practice
+                </a>
+                <FontAwesomeIcon
+                  className={`${utilStyles.icon} ${utilStyles.iconSuffix}`}
+                  icon={faArrowUpRightFromSquare}
+                />
+              </li>
+            </ul>
+          </li>
+        </ul>
           <li>
             UX Content Collective:{' '}
             <ul>

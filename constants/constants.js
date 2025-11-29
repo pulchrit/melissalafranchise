@@ -24,31 +24,6 @@ export const contactData = [
 
 export const experienceData = [
   {
-    id: 'job-13',
-    time: `Feb 2025${ENDASH}present`,
-    title: 'Student',
-    organization: `UX Content Collective`,
-    type: 'education',
-    accomplishments: [
-      {
-        id: 'ux-4',
-        text: 'Learning best practices for UX writing to craft compelling content that inspires users to act.',
-      },
-      {
-        id: 'ux-1',
-        text: 'Built skills in user research and testing to make informed content and design decisions and measure impact.',
-      },
-      {
-        id: 'ux-2',
-        text: 'Mastered the WCAG guidelines to include accessibility at every stage of content design and writing.',
-      },
-      {
-        id: 'ux-3',
-        text: 'Learned to craft compelling microcopy including best practices for buttons, alerts, forms, error and success messages, and empty states.',
-      },
-    ],
-  },
-  {
     id: 'job-1',
     time: `Dec 2019${ENDASH}Feb 2025`,
     title: 'Software Developer II',
@@ -70,27 +45,6 @@ export const experienceData = [
       {
         id: 'ihme-5',
         text: 'Created a process for implementing new UX design across 20+ visualization tools as well as implemented that design in a template and test tool based on Figma mockups.',
-      },
-    ],
-  },
-  {
-    id: 'job-12',
-    time: `March 2024`,
-    title: 'Student',
-    organization: `Google Project Management Certificate ${PIPE} Coursera`,
-    type: 'education',
-    accomplishments: [
-      {
-        id: 'google-1',
-        text: 'Perfected fundamentals of waterfall and agile project scoping, planning, scheduling, execution, and success measurement.',
-      },
-      {
-        id: 'google-2',
-        text: 'Improved understanding of optimal communication planning, strategies, and timing.',
-      },
-      {
-        id: 'google-3',
-        text: 'Learned specific techniques for effective documentation and artifact creation.',
       },
     ],
   },
@@ -615,28 +569,6 @@ export const portfolioData = [
       visualization tools. We told a story with the data that gave
       government health monitors in 21 countries a strong indication of how
       their people were recovering from the pandemic.`,
-  },
-  {
-    id: 'portfolio-3',
-    images: [
-      {
-        id: 'bohde-1',
-        src: '/images/bohde_identity.png',
-        alt: 'Letterhead for Cindy Bodhe Enterprises, Inc.',
-        width: 300,
-        height: 200,
-        priority: false,
-        href: 'https://drive.google.com/file/d/1NCRnr3mZbsW3sz0m0QB9USU1mbElFiFN/view?usp=drive_link',
-      },
-    ],
-    title: 'Cindy Bohde Enterprises, Inc. - Identity design',
-    code: 'Created letterhead, envelopes, and business cards for Cindy Bodhe Enterprises, Inc.',
-    type: `Identity design ${PIPE} Professional project`,
-    challenge:
-      'Created the logo, letterhead, envelopes, and business cards for Cindy Bohde.',
-    action: `I created a professional, sleek, and mature design to match the expertise and bearing of a keen professional.`,
-    outcome:
-      'Cindy was pleased with the logo and identity pieces back in 2003 and continues to use them today.',
   },
   {
     id: 'portfolio-6',
