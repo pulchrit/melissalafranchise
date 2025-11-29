@@ -107,7 +107,7 @@ export default function Home() {
         </div>
         <Subtitle text="certifications" />
         <ul>
-           <li>
+          <li>
             Proofread Anywhere:{' '}
             <ul>
               <li>
@@ -126,6 +126,7 @@ export default function Home() {
             </ul>
           </li>
         </ul>
+        <ul>
           <li>
             UX Content Collective:{' '}
             <ul>
