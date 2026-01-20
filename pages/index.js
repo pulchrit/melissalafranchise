@@ -171,8 +171,10 @@ export default function Home() {
               </li>
             </ul>
           </li>
+        </ul>
+        <ul>
           <li>
-            Google Project Management:
+            Google Project Management:{' '}
             <ul>
               <li>
                 <a
@@ -254,6 +256,8 @@ export default function Home() {
               </li>
             </ul>
           </li>
+        </ul>
+        <ul>
           <li>
             W3Schools:{' '}
             <ul>
@@ -272,6 +276,8 @@ export default function Home() {
               </li>
             </ul>
           </li>
+        </ul>
+        <ul>
           <li>
             American Library Association:{' '}
             <ul>
