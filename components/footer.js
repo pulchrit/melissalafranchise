@@ -6,6 +6,6 @@ export default function Footer() {
   return (
     <footer
       className={styles.wrapper}
-    >{`${copyright} 2025 Melissa Lafranchise`}</footer>
+    >{`${copyright} 2026 Melissa Lafranchise`}</footer>
   );
 }
