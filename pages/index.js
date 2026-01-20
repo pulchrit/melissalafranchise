@@ -272,6 +272,37 @@ export default function Home() {
               </li>
             </ul>
           </li>
+          <li>
+            American Library Association:{' '}
+            <ul>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1dvFL-84e6K21zyGZ_NpHLz_gL0KXA0QN/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Fundamental of Cataloging
+                </a>
+                <FontAwesomeIcon
+                  className={`${utilStyles.icon} ${utilStyles.iconSuffix}`}
+                  icon={faArrowUpRightFromSquare}
+                />
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/121bbDYXdEwaWQzLrAjzHfido-upaDXAb/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Fundamental of Digital Library Projects
+                </a>
+                <FontAwesomeIcon
+                  className={`${utilStyles.icon} ${utilStyles.iconSuffix}`}
+                  icon={faArrowUpRightFromSquare}
+                />
+              </li>
+            </ul>
+          </li>
         </ul>
         <Subtitle text="contact" />
         {contacts}
