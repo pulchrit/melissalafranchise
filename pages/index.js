@@ -128,6 +128,39 @@ export default function Home() {
         </ul>
         <ul>
           <li>
+            Printing United Alliance{' '}
+            <ul>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1T03hHFvvQAYa25axV9lyAvAUtUKNkB4Y/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Packaging Print Essentials
+                </a>
+                <FontAwesomeIcon
+                  className={`${utilStyles.icon} ${utilStyles.iconSuffix}`}
+                  icon={faArrowUpRightFromSquare}
+                />
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1q7xbTh6bHMd8qKdc9_go8b_3jkX-KmbK/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Introduction to the Printing Industry
+                </a>
+                <FontAwesomeIcon
+                  className={`${utilStyles.icon} ${utilStyles.iconSuffix}`}
+                  icon={faArrowUpRightFromSquare}
+                />
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>
             UX Content Collective:{' '}
             <ul>
               <li>
